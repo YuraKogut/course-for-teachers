@@ -1,5 +1,12 @@
+html{
+	overflow-x: hidden;
+}
+
 body{
-	background: #003440E0;
+	background-image: url('img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: currentColor;
 }
 .head-menu{
 	align-items:center;
@@ -147,4 +154,285 @@ color: #22FFFE;
     line-height: 19px;
     text-align: center;
     color: #000000;
+}
+
+/*layout-1 end*/
+
+.layout-2{
+	padding: 80px 0;
+}
+
+.center-text{
+	display: flex;
+    justify-content: center;
+}
+.center-text h1{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+.center-text span{
+    color: #FFC700;
+}
+
+.blocks-about{
+	padding: 20px 0;
+}
+.block-1{
+	display: flex;
+}
+.icon img{
+	border-radius: 50%;
+}
+.descr{
+	margin-left: 19px;
+}
+.descr h1{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 0;
+    margin: 0;
+}
+.descr span{
+	color: #FFC700;
+}
+.descr p{
+	margin-bottom: 0;
+	 font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.blocks-about-1{
+	display: flex;
+	    padding: 20px 0;
+}
+.blocks-about-2{
+	display: flex;
+	    padding: 20px 0;
+}
+
+.arr{
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+	align-items: baseline;
+}
+.ic{
+	border: none;
+    background: none;
+    color: #FFC700;
+}
+
+.active{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+color: #FFC700;
+border: none;
+background: none;
+}
+.buttons button{
+	border: none;
+    background: none;
+    color: #FFC700;
+}
+.btn-center{
+	    text-align: center;
+    padding: 90px 0;
+}
+.btn-bottom-center{
+	text-align: center;
+	padding: 50px 0;
+}
+.under-text h1{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.under-text span{
+	color: #FFC700;
+}
+
+/*layout-2 end*/
+.layout-3{
+	padding-bottom: 250px;
+}
+
+
+.our-graduates{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+text-align: center;
+color: #FFFFFF;
+}
+.kv{
+	position: relative;
+	width: 485px;
+	bottom: -150px;
+    left: 156px;
+height: 395px;
+background: #22FFFE;
+}
+.foot-blocks{
+	display: flex;
+	left: -420px;
+	bottom: 46px;
+    position: absolute;
+    justify-content: space-between;
+}
+.foot-block-1{
+	width: 223px;
+	height: 316px;
+	background: white;
+	border-radius: 12px;
+}
+.icon-1{
+    height: 139px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+background: red;
+background-image: url('img/grad-1.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.footer-text{
+	padding: 23px 14px;
+}
+.footer-text h1{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #0D5C6D;
+}
+.footer-text p{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}
+.foot-blocks .col-2{
+	width: 19%;
+}
+.foot-blocks .col-3{
+	width: 19%;
+}
+
+.show{
+	position: absolute;
+    width: 472px;
+    height: 532px;
+    left: -164px;
+    top: -79px;
+    background: #0D5D6F;
+}
+.main-txt{
+	 padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-txt h1{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+margin: 0;
+}
+.butttons button{
+	border: none;
+	background: none;
+}
+.main-foot{
+	text-align: center;
+    position: relative;
+    bottom: -365px;
+}
+.main-foot button{
+	width: 427px;
+    height: 63px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
+    /* color: white; */
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*layout-3 end*/
+
+.layout-4{
+	padding: 100px 0;
+}
+.f-text{
+	text-align: center;
+}
+.f-text h1{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: white;
+}
+.f-text span{
+	color: #FFC700; 
+}
+.f-text h2{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 3;
+color: #22FFFE;
+}
+.cntr{
+	text-align: center;
+}
+.icons{
+	padding: 90px 0;
+}
+.icons button{
+	border: none;
+    background: none;
+}
+
+.foot-text-block h1{
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
 }
