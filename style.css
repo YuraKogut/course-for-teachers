@@ -6,6 +6,8 @@ body{
 	background-image: url('img/bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 	background-color: currentColor;
 }
 .head-menu{
@@ -435,4 +437,40 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 color: #FFFFFF;
+}
+
+
+@media(max-width: 1200px){
+.head-menu{
+	display: block!important;
+}
+.logo {
+    width: 100%;
+}
+.header-block{
+	display: block!important;
+}
+.blocks-about-1{
+	display: block!important;
+}
+.blocks-about-2{
+	display: block!important;
+}
+	.col-md-4 {
+    flex: 0 0 auto;
+   
+}
+.block-1{
+	padding: 40px 0;
+}
+.center-text h1{
+	font-size: 40px;
+}
+}
+
+@media(max-width:637px ){
+	.right-image img{
+		width: 102%;
+	}
+
 }
