@@ -185,6 +185,7 @@ color: #22FFFE;
 }
 .block-1{
 	display: flex;
+	width: 104%;
 }
 .icon img{
 	border-radius: 50%;
